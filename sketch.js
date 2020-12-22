@@ -41,7 +41,6 @@ function draw() {
   Engine.update(engine);
   textSize(20);
   stroke("red")
-  text("Press up arrow first and then immediately down arrow",160,50);
   rectMode(CENTER);
   bob1.display();
   bob2.display();
